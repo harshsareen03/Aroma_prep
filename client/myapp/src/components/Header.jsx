@@ -3,7 +3,7 @@
 // open App component and setup Routes to navigate one component to another component
 // open https://react-bootstrap.netlify.app/ and click on navbar component and select navbar by copying and paste to your header.jsx file
 import React from "react";
-import { Navbar, Nav, Container,Carousel } from "react-bootstrap";
+import { Navbar, Nav, Container,Carousel,Image } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import styles from '../Navbar.module.css'
 import { VscSignIn } from "react-icons/vsc";
@@ -14,9 +14,9 @@ const Header = () => {
   return (
     <>
       <Navbar  variant="dark" collapseOnSelect style={{backgroundColor:'grey', fontFamily:'impact'}}>
-        <Container style={{ maxWidth: "1900px" }}>
+        <Container style={{ maxWidth: "1900px" }} > 
           <LinkContainer to="/">
-            <Navbar.Brand><img src="./Images/ICON.png"/>-
+            <Navbar.Brand><Image src="../Images/icon.png"/>-
             perfumes</Navbar.Brand>
           </LinkContainer>
           

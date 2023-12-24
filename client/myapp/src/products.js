@@ -1,63 +1,79 @@
 const products = [
   {
-    
+    _id:'1',
     name: 'Hot Mess Perfume for Women - 100ml',
     image: 'https://bellavitaluxury.co.in/cdn/shop/files/2_5.jpg?v=1696345423&width=360',
     description:
-      'Sometimes crazy but always HOT, the BELLAVITA Hot Mess Eau De Parfum is for the girls who love the attention and get it easily, too! With a burst of citrus',
+      ' Sometimes crazy but always HOT, the BELLAVITA Hot Mess Eau De Parfum is for the girls who love the attention and get it easily, too! With a burst of citrusSometimes crazy but always HOT, the BELLAVITA Hot Mess Eau De Parfum is for the girls who love the attention and get it easily, too! With a burst of citrusSometimes crazy but always HOT, the BELLAVITA Hot Mess Eau De Parfum is for the girls who love the attention and get it easily, too! With a burst of citrusSometimes crazy but always HOT, the BELLAVITA Hot Mess Eau De Parfum is for the girls who love the attention and get it easily, too! With a burst of citrusSometimes crazy but always HOT, the BELLAVITA Hot Mess Eau De Parfum is for the girls who love the attention and get it easily, too! With a burst of citrusSometimes crazy but always HOT, the BELLAVITA Hot Mess Eau De Parfum is for the girls who love the attention and get it easily, too! With a burst of citrusSometimes crazy but always HOT, the BELLAVITA Hot Mess Eau De Parfum is for the girls who love the attention and get it easily, too! With a burst of citrus',
     brand: 'Bellavita',
     category: 'Women',
+    imageone:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/i/r/v/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8uzzhjzmy.jpeg?q=70',
+    imagetwo:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/9/r/n/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8hcw4bsvm.jpeg?q=70',
+    imagethree:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/l/v/a/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagzt64zxkfafc3.jpeg?q=70',
     price: 849,
     countInStock: 15,
     rating: 4.9,
     numReviews: 20,
   },
   {
-    
+    _id:'2',
     name: 'BLU Man - 100 ml',
     image: 'https://bellavitaluxury.co.in/cdn/shop/files/BLUMAN.jpg?v=1696225124&width=493',
     description:
       'Dive into the refreshing and calming world of BLU Perfume for Men by Bella Vita Luxury. This fragrance is perfect for the man who loves spending',
     brand: 'Bellavita',
     category: 'men',
+    imageone:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/i/r/v/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8uzzhjzmy.jpeg?q=70',
+    imagetwo:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/9/r/n/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8hcw4bsvm.jpeg?q=70',
+    imagethree:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/l/v/a/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagzt64zxkfafc3.jpeg?q=70',
     price: 849,
     countInStock: 50,
     rating: 3.8,
     numReviews: 25,
   },
   {
-   
+    _id:'3',
     name: 'CEO MAN INTENSE - 100ML',
     image: 'https://bellavitaluxury.co.in/cdn/shop/files/CEOManIntense-01.jpg?v=1701772117&width=493',
     description:
       "CEO Man Intense is like the upgraded version of our classic CEO Man Eau De Parfum. It's stronger and bolder, giving you that extra kick!",
     brand: 'Bellavita',
     category: 'men',
+    imageone:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/i/r/v/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8uzzhjzmy.jpeg?q=70',
+    imagetwo:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/9/r/n/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8hcw4bsvm.jpeg?q=70',
+    imagethree:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/l/v/a/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagzt64zxkfafc3.jpeg?q=70',
     price: 899.00,
     countInStock: 35,
     rating: 4.6,
     numReviews: 28,
   },
   {
-    
+    _id:'4',
     name: 'CEO MAN PERFUME BODY LOTION - 200ML',
     image: 'https://bellavitaluxury.co.in/cdn/shop/files/CEOMANPerfumeBodyLotion-200ml.jpg?v=1696229198&width=600',
     description:
       'Indulge in the scent of your favourite CEO Man perfume with the CEO Man Perfume Lotion and use the power of perfume to nourish your skin.',
     brand: 'Bellavita',
     category: 'men',
+    imageone:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/i/r/v/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8uzzhjzmy.jpeg?q=70',
+    imagetwo:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/9/r/n/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8hcw4bsvm.jpeg?q=70',
+    imagethree:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/l/v/a/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagzt64zxkfafc3.jpeg?q=70',
     price: 235.00,
     countInStock: 11,
     rating: 4.9,
     numReviews: 12,
   },
   {
-    
+    _id:'5',
     name: 'HOT MESS PERFUME FOR WOMEN - 100ML',
     image: 'https://bellavitaluxury.co.in/cdn/shop/files/2_5.jpg?v=1696345423&width=493',
     description:
       'Sometimes crazy but always HOT, the BELLAVITA Hot Mess Eau De Parfum is for the girls who love the attention and get it easily',
     brand: 'Bellavita',
+    imageone:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/i/r/v/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8uzzhjzmy.jpeg?q=70',
+    imagetwo:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/9/r/n/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8hcw4bsvm.jpeg?q=70',
+    imagethree:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/l/v/a/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagzt64zxkfafc3.jpeg?q=70',
+    
     category: 'Women',
     price: 849.00,
     countInStock: 7,
@@ -65,12 +81,15 @@ const products = [
     numReviews: 10,
   },
   {
-    
+    _id:'6',
     name: 'DATE Woman Perfume Body Lotion',
     image: 'https://bellavitaluxury.co.in/cdn/shop/files/DatewomanBodyLotion-01.jpg?v=1702372760&width=360',
     description:
       'Indulge in the world of sensuality with the luxurious DATE WOMAN Perfume Body Lotion. Infused with the enchanting essence of the DATE',
     brand: 'Bellavita',
+    imageone:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/i/r/v/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8uzzhjzmy.jpeg?q=70',
+    imagetwo:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/9/r/n/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8hcw4bsvm.jpeg?q=70',
+    imagethree:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/l/v/a/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagzt64zxkfafc3.jpeg?q=70',
     category: 'men',
     price: 235.00,
     countInStock: 0,
@@ -78,12 +97,15 @@ const products = [
     numReviews: 12,
   },
   {
-    
+    _id:'7',
     name: 'BLU Man - 100 ml',
     image: 'https://bellavitaluxury.co.in/cdn/shop/files/BLUMAN.jpg?v=1696225124&width=493',
     description:
       'Dive into the refreshing and calming world of BLU Perfume for Men by Bella Vita Luxury. This fragrance is perfect for the man who loves spending',
     brand: 'Bellavita',
+    imageone:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/i/r/v/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8uzzhjzmy.jpeg?q=70',
+    imagetwo:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/9/r/n/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8hcw4bsvm.jpeg?q=70',
+    imagethree:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/l/v/a/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagzt64zxkfafc3.jpeg?q=70',
     category: 'men',
     price: 849,
     countInStock: 50,
@@ -91,12 +113,15 @@ const products = [
     numReviews: 25,
   },
   {
-   
+    _id:'8',
     name: 'CEO MAN INTENSE - 100ML',
     image: 'https://bellavitaluxury.co.in/cdn/shop/files/CEOManIntense-01.jpg?v=1701772117&width=493',
     description:
       "CEO Man Intense is like the upgraded version of our classic CEO Man Eau De Parfum. It's stronger and bolder, giving you that extra kick!",
     brand: 'Bellavita',
+    imageone:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/i/r/v/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8uzzhjzmy.jpeg?q=70',
+    imagetwo:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/9/r/n/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8hcw4bsvm.jpeg?q=70',
+    imagethree:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/l/v/a/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagzt64zxkfafc3.jpeg?q=70',
     category: 'men',
     price: 899.00,
     countInStock: 35,
@@ -104,12 +129,15 @@ const products = [
     numReviews: 28,
   },
   {
-    
+    _id:'9',
     name: 'CEO MAN PERFUME BODY LOTION - 200ML',
     image: 'https://bellavitaluxury.co.in/cdn/shop/files/CEOMANPerfumeBodyLotion-200ml.jpg?v=1696229198&width=600',
     description:
       'Indulge in the scent of your favourite CEO Man perfume with the CEO Man Perfume Lotion and use the power of perfume to nourish your skin.',
     brand: 'Bellavita',
+    imageone:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/i/r/v/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8uzzhjzmy.jpeg?q=70',
+    imagetwo:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/9/r/n/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8hcw4bsvm.jpeg?q=70',
+    imagethree:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/l/v/a/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagzt64zxkfafc3.jpeg?q=70',
     category: 'men',
     price: 235.00,
     countInStock: 11,
@@ -117,12 +145,15 @@ const products = [
     numReviews: 12,
   },
   {
-    
+    _id:'10',
     name: 'HOT MESS PERFUME FOR WOMEN - 100ML',
     image: 'https://bellavitaluxury.co.in/cdn/shop/files/2_5.jpg?v=1696345423&width=493',
     description:
       'Sometimes crazy but always HOT, the BELLAVITA Hot Mess Eau De Parfum is for the girls who love the attention and get it easily',
     brand: 'Bellavita',
+    imageone:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/i/r/v/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8uzzhjzmy.jpeg?q=70',
+    imagetwo:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/9/r/n/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8hcw4bsvm.jpeg?q=70',
+    imagethree:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/l/v/a/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagzt64zxkfafc3.jpeg?q=70',
     category: 'Women',
     price: 849.00,
     countInStock: 7,
@@ -130,12 +161,15 @@ const products = [
     numReviews: 10,
   },
   {
-    
+    _id:'11',
     name: 'DATE Woman Perfume Body Lotion',
     image: 'https://bellavitaluxury.co.in/cdn/shop/files/DatewomanBodyLotion-01.jpg?v=1702372760&width=360',
     description:
       'Indulge in the world of sensuality with the luxurious DATE WOMAN Perfume Body Lotion. Infused with the enchanting essence of the DATE',
     brand: 'Bellavita',
+    imageone:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/i/r/v/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8uzzhjzmy.jpeg?q=70',
+    imagetwo:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/9/r/n/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagpyd8hcw4bsvm.jpeg?q=70',
+    imagethree:'https://rukminim2.flixcart.com/image/416/416/xif0q/perfume/l/v/a/100-g-o-a-t-man-perfume-with-notes-of-bergamot-lavender-pepper-original-imagzt64zxkfafc3.jpeg?q=70',
     category: 'men',
     price: 235.00,
     countInStock: 0,
